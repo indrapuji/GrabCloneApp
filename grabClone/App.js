@@ -11,7 +11,7 @@ import {
 const App: () => React$Node = () => {
   return (
     <View style={{flex: 1}}>
-      <ScrollView>
+      <ScrollView style={{backgroundColor: '#F7F7F7'}}>
         <View style={{flex: 1}}>
           <View
             style={{
@@ -56,6 +56,57 @@ const App: () => React$Node = () => {
                   borderTopLeftRadius: 5,
                   borderBottomLeftRadius: 5,
                 }}
+              />
+            </View>
+          </View>
+        </View>
+        <View style={{flexDirection: 'row'}}>
+          <View style={{flex: 1}}>
+            <View
+              style={{
+                height: 59,
+                backgroundColor: '#FFFFFF',
+                justifyContent: 'center',
+                marginRight: 1,
+              }}>
+              <Image
+                source={require('./assets/home/logoOvo.png')}
+                style={{height: 28, width: 28, left: 20}}
+              />
+              <Text
+                style={{
+                  position: 'absolute',
+                  fontSize: 10,
+                  color: '#ADADAD',
+                  left: 55,
+                  top: 20,
+                }}>
+                IDR
+              </Text>
+              <View />
+              <Text style={{position: 'absolute', left: 73}}>100.000</Text>
+              <Image
+                source={require('./assets/home/next.png')}
+                style={{position: 'absolute', height: 8, width: 8, left: 130}}
+              />
+            </View>
+          </View>
+          <View style={{flex: 1}}>
+            <View
+              style={{
+                height: 59,
+                backgroundColor: '#FFFFFF',
+                justifyContent: 'center',
+                marginLeft: 1,
+              }}>
+              <Image
+                source={require('./assets/home/logoPoint.png')}
+                style={{height: 28, width: 28, left: 20}}
+              />
+              <Text style={{position: 'absolute', left: 55}}>5000 Points</Text>
+              <Image
+                source={require('./assets/home/next.png')}
+                style={{position: 'absolute', height: 8, width: 8, left: 137}}
               />
             </View>
           </View>
