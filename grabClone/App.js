@@ -11,7 +11,9 @@ import {
 const App: () => React$Node = () => {
   return (
     <View style={{flex: 1}}>
-      <ScrollView style={{backgroundColor: '#F7F7F7'}}>
+      <ScrollView
+        showsVerticalScrollIndicator={false}
+        style={{backgroundColor: '#F7F7F7'}}>
         <View style={{flex: 1}}>
           <View
             style={{
@@ -212,6 +214,152 @@ const App: () => React$Node = () => {
                 <Text>More</Text>
               </View>
             </View>
+          </View>
+        </View>
+        <View style={{marginTop: 2, backgroundColor: 'white'}}>
+          <View style={{paddingLeft: 17, paddingTop: 23}}>
+            <Text style={{fontSize: 14, fontWeight: 'bold'}}>
+              Keep discovering
+            </Text>
+          </View>
+          <View style={{alignItems: 'center', paddingVertical: 17}}>
+            <Image
+              source={require('./assets/home/gooddoctor.png')}
+              style={{height: 239, width: 351}}
+            />
+          </View>
+        </View>
+        <View style={{marginTop: 2, backgroundColor: 'white'}}>
+          <View
+            style={{
+              flexDirection: 'row',
+              flexWrap: 'wrap',
+              justifyContent: 'space-between',
+              paddingHorizontal: 13,
+            }}>
+            <View style={{paddingTop: 17}}>
+              <Image
+                source={require('./assets/home/buatanindonesia.png')}
+                style={{height: 249, width: 171}}
+              />
+            </View>
+            <View style={{paddingTop: 17}}>
+              <Image
+                source={require('./assets/home/katalogpromo.png')}
+                style={{height: 249, width: 171}}
+              />
+            </View>
+            <View style={{paddingTop: 17}}>
+              <Image
+                source={require('./assets/home/voucherpulsa.png')}
+                style={{height: 249, width: 171}}
+              />
+            </View>
+            <View style={{paddingTop: 17}}>
+              <Image
+                source={require('./assets/home/grabhealth.png')}
+                style={{height: 249, width: 171}}
+              />
+            </View>
+            <View style={{paddingTop: 17}}>
+              <Image
+                source={require('./assets/home/temanloyal.png')}
+                style={{height: 249, width: 171}}
+              />
+            </View>
+            <View style={{paddingTop: 17}}>
+              <Image
+                source={require('./assets/home/grabmart.png')}
+                style={{height: 249, width: 171}}
+              />
+            </View>
+            <View style={{paddingTop: 17}}>
+              <Image
+                source={require('./assets/home/grabfood.png')}
+                style={{height: 249, width: 171}}
+              />
+            </View>
+            <View style={{paddingTop: 17}}>
+              <Image
+                source={require('./assets/home/grabmartharian.png')}
+                style={{height: 249, width: 171}}
+              />
+            </View>
+            <View style={{paddingTop: 17}}>
+              <Image
+                source={require('./assets/home/temanloyal2.png')}
+                style={{height: 249, width: 171}}
+              />
+            </View>
+            <View style={{paddingTop: 17}}>
+              <Image
+                source={require('./assets/home/grabexpress.png')}
+                style={{height: 249, width: 171}}
+              />
+            </View>
+            <View style={{paddingTop: 17}}>
+              <Image
+                source={require('./assets/home/grabprotect.png')}
+                style={{height: 249, width: 171}}
+              />
+            </View>
+            <View style={{paddingTop: 17}}>
+              <Image
+                source={require('./assets/home/ceritagrab.png')}
+                style={{height: 249, width: 171}}
+              />
+            </View>
+            <View style={{paddingTop: 17}}>
+              <Image
+                source={require('./assets/home/kitacorona.png')}
+                style={{height: 249, width: 171}}
+              />
+            </View>
+            <View style={{paddingTop: 17}}>
+              <Image
+                source={require('./assets/home/newnormal.png')}
+                style={{height: 249, width: 171}}
+              />
+            </View>
+            <View style={{paddingTop: 17}}>
+              <Image
+                source={require('./assets/home/grabreward.png')}
+                style={{height: 249, width: 171}}
+              />
+            </View>
+            <View style={{paddingTop: 17}}>
+              <Image
+                source={require('./assets/home/grabkios.png')}
+                style={{height: 249, width: 171}}
+              />
+            </View>
+            <View style={{paddingTop: 17}}>
+              <Image
+                source={require('./assets/home/donasi.png')}
+                style={{height: 249, width: 171}}
+              />
+            </View>
+            <View style={{paddingTop: 17}}>
+              <Image
+                source={require('./assets/home/news.png')}
+                style={{height: 249, width: 171}}
+              />
+            </View>
+            <View style={{paddingTop: 17}}>
+              <Image
+                source={require('./assets/home/promomgt.png')}
+                style={{height: 249, width: 171}}
+              />
+            </View>
+          </View>
+          <View
+            style={{
+              alignItems: 'center',
+              marginVertical: 27,
+            }}>
+            <Text style={{fontSize: 12, color: '#9A9A9A'}}>
+              That's all for Now
+            </Text>
           </View>
         </View>
       </ScrollView>
