@@ -111,6 +111,109 @@ const App: () => React$Node = () => {
             </View>
           </View>
         </View>
+        <View style={{marginTop: 8, backgroundColor: 'white'}}>
+          <View style={{alignItems: 'center', paddingTop: 12}}>
+            <View
+              style={{
+                height: 42,
+                width: 154,
+                borderWidth: 1,
+                borderRadius: 5,
+                flexDirection: 'row',
+                justifyContent: 'space-around',
+                alignItems: 'center',
+                paddingHorizontal: 13,
+              }}>
+              <Image
+                source={require('./assets/home/topup.png')}
+                style={{width: 20, height: 20}}
+              />
+              <Text style={{fontWeight: 'bold'}}>Top Up</Text>
+              <Text style={{fontWeight: 'bold', bottom: 4}}>.</Text>
+              <Text>Wallet</Text>
+            </View>
+          </View>
+          <View
+            style={{
+              flexDirection: 'row',
+              flexWrap: 'wrap',
+              marginHorizontal: 26,
+              marginTop: 29,
+            }}>
+            <View
+              style={{
+                flexDirection: 'row',
+                justifyContent: 'space-between',
+                width: '100%',
+                marginBottom: 15,
+              }}>
+              <View style={{alignItems: 'center'}}>
+                <Image
+                  source={require('./assets/home/foodIcon.png')}
+                  style={{width: 62, height: 62, marginBottom: 12}}
+                />
+                <Text>Food</Text>
+              </View>
+              <View style={{alignItems: 'center'}}>
+                <Image
+                  source={require('./assets/home/martIcon.png')}
+                  style={{width: 62, height: 62, marginBottom: 12}}
+                />
+                <Text>Mart</Text>
+              </View>
+              <View style={{alignItems: 'center'}}>
+                <Image
+                  source={require('./assets/home/deliveryIcon.png')}
+                  style={{width: 62, height: 62, marginBottom: 12}}
+                />
+                <Text>Delivery</Text>
+              </View>
+              <View style={{alignItems: 'center'}}>
+                <Image
+                  source={require('./assets/home/healthIcon.png')}
+                  style={{width: 62, height: 62, marginBottom: 12}}
+                />
+                <Text>Health</Text>
+              </View>
+            </View>
+            <View
+              style={{
+                flexDirection: 'row',
+                justifyContent: 'space-between',
+                width: '100%',
+                marginBottom: 20,
+              }}>
+              <View style={{alignItems: 'center'}}>
+                <Image
+                  source={require('./assets/home/carIcon.png')}
+                  style={{width: 62, height: 62, marginBottom: 12}}
+                />
+                <Text>Car</Text>
+              </View>
+              <View style={{alignItems: 'center'}}>
+                <Image
+                  source={require('./assets/home/bikeIcon.png')}
+                  style={{width: 62, height: 62, marginBottom: 12}}
+                />
+                <Text>Bike</Text>
+              </View>
+              <View style={{alignItems: 'center'}}>
+                <Image
+                  source={require('./assets/home/groceriesIcon.png')}
+                  style={{width: 62, height: 62, marginBottom: 12}}
+                />
+                <Text>Groceries</Text>
+              </View>
+              <View style={{alignItems: 'center'}}>
+                <Image
+                  source={require('./assets/home/moreIcon.png')}
+                  style={{width: 62, height: 62, marginBottom: 12}}
+                />
+                <Text>More</Text>
+              </View>
+            </View>
+          </View>
+        </View>
       </ScrollView>
       <View
         style={{height: 59, backgroundColor: 'white', flexDirection: 'row'}}>
